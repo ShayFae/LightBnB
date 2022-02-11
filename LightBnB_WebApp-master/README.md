@@ -21,6 +21,7 @@
 │   └── styles
 ├── sass
 └── server
+  ├── db
   ├── apiRoutes.js
   ├── database.js
   ├── json
@@ -41,3 +42,4 @@
   * `apiRoutes.js` and `userRoutes.js` are responsible for any HTTP requests to `/users/something` or `/api/something`. 
   * `json` is a directory that contains a bunch of dummy data in `.json` files.
   * `database.js` is responsible for all queries to the database. It doesn't currently connect to any database, all it does is return data from `.json` files.
+  * `index.js` contains the pool to use connect to PostgresSQL server.
